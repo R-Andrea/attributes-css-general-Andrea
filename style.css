@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 0;
+}
+
+.card-header {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #0d6efd;
+    font-weight: bold;
+}
+.row > .col-sm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.col-sm > .row {
+    justify-content: center;
+}
+
+.col-sm {
+    margin: auto;
+    text-align: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn.btn-primary {
+    border-radius: 100%;
+    background-color: #0d6efd;
+}
+
+
+.col {
+    display: flex;
+    justify-content: center;
+
+}
+
+.list-group-item input {
+    outline-width: 5px;
+    outline-color: black;
+}
+
+
+.list-group-item input[readonly] {
+    border: 0px;
+    border-image-width: 0px;
+    outline-width: 0px;
+}
+
+.list-group-item:nth-of-type(2n) {
+    background-color:#E0E0E0;
+
+}
+
+.list-group-item:nth-of-type(2n) input {
+    background-color:#E0E0E0;
+}
+
+/* place checkboxes in center*/
+input[type="checkbox"] {
+    align-self: center;
+}
+
+.btn.btn-secondary {
+   background-color: #6c757d; 
+   border-color: #6c757d;
+}
